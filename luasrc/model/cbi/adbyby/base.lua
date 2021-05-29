@@ -35,7 +35,7 @@ o.description = string.format("<strong>"..translate("Last Update Checked")..":</
 o.inputstyle = "reload"
 o.write = function()
 	SYS.call("rm -rf /tmp/adbyby.updated /tmp/adbyby/admd5.json && /usr/share/adbyby/adbybyupdate.sh > /tmp/adupdate.log 2>&1 &")
-	SYS.call("sleep 5")
+    SYS.call("sleep 5")
 	HTTP.redirect(DISP.build_url("admin", "services", "adbyby"))
 end
 
