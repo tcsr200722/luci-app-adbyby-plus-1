@@ -32,12 +32,12 @@ o.title = translate("Update the rule at 6 a.m. every morning and restart adbyby"
 o.default = 0
 o.rmempty = false
 
-o=s:option(DummyValue, "ad_data", translate("Adblock Plus Data"))
+o = s:option(DummyValue, "ad_data", translate("Adblock Plus Data"))
 o.rawhtml  = true
 o.template = "adbyby/refresh"
 o.value = ad_count .. " " .. translate("Records")
 
-o=s:option(DummyValue, "rule_data", translate("Subscribe 3rd Rules Data"))
+o = s:option(DummyValue, "rule_data", translate("Subscribe 3rd Rules Data"))
 o.rawhtml  = true
 o.template = "adbyby/refresh"
 o.value = rule_count .. " " .. translate("Records")
