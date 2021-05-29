@@ -7,9 +7,6 @@ msgstr "<strong><font color=\"green\">正在运行</font></strong>"
 msgid "<strong><font color=\"red\">Adbyby Plus + is Not Running</font></strong>"
 msgstr "<strong><font color=\"red\">停止运行</font></strong>"
 
-msgid "Adbyby Plus +"
-msgstr "广告屏蔽"
-
 msgid "Adbyby Plus + Settings"
 msgstr "广告屏蔽"
 
