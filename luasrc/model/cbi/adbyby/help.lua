@@ -5,7 +5,7 @@ f = SimpleForm("custom")
 
 t = f:field(TextValue, "conf")
 t.rmempty = true
-t.rows = 13
+t.rows = 25
 function t.cfgvalue()
 	return fs.readfile(conffile) or ""
 end
