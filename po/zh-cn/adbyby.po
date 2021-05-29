@@ -1,0 +1,143 @@
+msgid "ADBYBY Plus +"
+msgstr "广告屏蔽"
+
+msgid "<strong><font color=\"green\">Adbyby Plus + is Running</font></strong>"
+msgstr "<strong><font color=\"green\">正在运行</font></strong>"
+
+msgid "<strong><font color=\"red\">Adbyby Plus + is Not Running</font></strong>"
+msgstr "<strong><font color=\"red\">已经停止</font></strong>"
+
+msgid "Adbyby Plus +"
+msgstr "广告屏蔽"
+
+msgid "Adbyby Plus + Settings"
+msgstr "广告屏蔽"
+
+msgid "Base Setting"
+msgstr "基本设置"
+
+msgid "Running Mode"
+msgstr "运行模式"
+
+msgid "Global Mode (The slowest and the best effects)"
+msgstr "全局过滤"
+
+msgid "Plus + Mode (Filter domain name list and blacklist website.Recommended)"
+msgstr "选择过滤"
+
+msgid "No filter Mode (Must set in Client Filter Mode Settings manually)"
+msgstr "手动过滤"
+
+msgid "Transparent proxy"
+msgstr "透明代理"
+
+msgid "Click to disable"
+msgstr "点击关闭"
+
+msgid "Click to enable"
+msgstr "点击开启"
+
+msgid "Adbyby and Rule state"
+msgstr "规则状态"
+
+msgid "Restart Adbyby"
+msgstr "重启服务"
+
+msgid "Plus+ Domain List"
+msgstr "过滤的域名"
+
+msgid "Bypass Domain List"
+msgstr "域名白名单"
+
+msgid "Black Domain List"
+msgstr "域名黑名单"
+
+msgid "Black IP List"
+msgstr "IP黑名单"
+
+msgid "Advance Setting"
+msgstr "高级设置"
+
+msgid "Update the rule at 6 a.m. every morning and restart adbyby"
+msgstr "自动更新"
+
+msgid "ADP Host List"
+msgstr "Hosts 记录数"
+
+msgid "Adblock Plus Data"
+msgstr "规则数据库"
+
+msgid "Subscribe 3rd Rules Data"
+msgstr "订阅规则"
+
+msgid "Records"
+msgstr "条记录"
+
+msgid "Refresh Data"
+msgstr "更新数据"
+
+msgid "Refresh..."
+msgstr "正在更新..."
+
+msgid "Refresh Error!"
+msgstr "更新失败!"
+
+msgid "No new data!"
+msgstr "无需更新"
+
+msgid "Total Records:"
+msgstr "总数"
+
+msgid "Delete All Subscribe Rules"
+msgstr "清空订阅规则"
+
+msgid "Anti-AD Rules Subscribe"
+msgstr "订阅URL"
+
+msgid "Manually force update<br />Adblock Plus Host List"
+msgstr "强制更新"
+
+msgid "Update Adbyby Rules Manually"
+msgstr "更新规则"
+
+msgid "Block Apple iOS OTA update"
+msgstr "拦截 iOS 更新"
+
+msgid "Block CNshort APP and Website"
+msgstr "拦截短视频类"
+
+msgid "User-defined Rule"
+msgstr "自定义规则"
+
+msgid "<strong>Client Filter Mode Settings</strong>"
+msgstr "<strong>客户端设置</strong>"
+
+msgid "Filter mode settings can be set to specific LAN clients ( <font color=blue> No filter , Global filter </font> ) . Does not need to be set by default."
+msgstr "为局域网客户端分别设置不同的过滤模式"
+
+msgid "IP Address"
+msgstr "IP地址"
+
+msgid "Filter Mode"
+msgstr "过滤模式"
+
+msgid "Note: It needs to download and convert the rules. The background process may takes 60-120 seconds to run. <br / > After completed it would automatically refresh, please do not duplicate click!"
+msgstr "完成后会自动刷新,请不要重复点击"
+
+msgid "No filter"
+msgstr "不过滤"
+
+msgid "Global filter"
+msgstr "全局过滤"
+
+msgid "Last Update Checked"
+msgstr "最近更新"
+
+msgid "Adblock Plus Host List"
+msgstr "广告屏蔽规则列表"
+
+msgid "Block Domain List"
+msgstr "域名黑名单"
+
+msgid "Block IP List"
+msgstr "IP黑名单"
