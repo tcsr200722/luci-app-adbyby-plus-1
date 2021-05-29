@@ -43,7 +43,7 @@ msgstr "重启服务"
 msgid "Plus+ Domain List"
 msgstr "过滤域名"
 
-msgid "Bypass Domain List"
+msgid "White Domain List"
 msgstr "域名白名单"
 
 msgid "Black Domain List"
