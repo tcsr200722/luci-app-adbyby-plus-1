@@ -85,7 +85,7 @@ msgstr "订阅规则"
 msgid "Clear All Subscribe Rules"
 msgstr "清空订阅规则"
 
-msgid "Subscribe URL"
+msgid "Subscribe Rules URL"
 msgstr "订阅URL"
 
 msgid "Refresh..."

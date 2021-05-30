@@ -50,7 +50,7 @@ o.write = function()
   luci.http.redirect(luci.dispatcher.build_url("admin", "services", "adbyby", "advanced"))
 end
 
-o = s:option(DynamicList, "subscribe_url", translate("Subscribe URL"))
+o = s:option(DynamicList, "subscribe_url", translate("Subscribe Rules URL"))
 o.rmempty = true
 
 return m
