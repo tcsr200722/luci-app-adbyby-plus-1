@@ -10,11 +10,11 @@ function index()
 	
 	entry({"admin", "services", "adbyby", "base"}, cbi("adbyby/base"), _("Base Setting"), 10).leaf = true
 	entry({"admin", "services", "adbyby", "advanced"}, cbi("adbyby/advanced"), _("Advance Setting"), 20).leaf = true
-	entry({"admin", "services", "adbyby", "help"}, form("adbyby/filterdomain"), _("Filter Domain"), 30).leaf = true
-	entry({"admin", "services", "adbyby", "esc"}, form("adbyby/bypassdomain"), _("Bypass Domain"), 40).leaf = true
-	entry({"admin", "services", "adbyby", "black"}, form("adbyby/blockdomain"), _("Block Domain"), 50).leaf = true
-	entry({"admin", "services", "adbyby", "block"}, form("adbyby/blockip"), _("Block IP"), 60).leaf = true
-	entry({"admin", "services", "adbyby", "user"}, form("adbyby/customized"), _("Customized"), 70).leaf = true
+	entry({"admin", "services", "adbyby", "filterdomain"}, form("adbyby/filterdomain"), _("Filter Domain"), 30).leaf = true
+	entry({"admin", "services", "adbyby", "bypassdomain"}, form("adbyby/bypassdomain"), _("Bypass Domain"), 40).leaf = true
+	entry({"admin", "services", "adbyby", "blockdomain"}, form("adbyby/blockdomain"), _("Block Domain"), 50).leaf = true
+	entry({"admin", "services", "adbyby", "blockip"}, form("adbyby/blockip"), _("Block IP"), 60).leaf = true
+	entry({"admin", "services", "adbyby", "customized"}, form("adbyby/customized"), _("Customized"), 70).leaf = true
 	
 	entry({"admin", "services", "adbyby", "refresh"}, call("refresh_data"))
 	entry({"admin", "services", "adbyby", "run"}, call("act_status")).leaf = true
