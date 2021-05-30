@@ -98,7 +98,7 @@ msgid "Refresh Error"
 msgstr "更新失败"
 
 msgid "Total Records:"
-msgstr "总计"
+msgstr "总计:"
 
 msgid "Refresh Data"
 msgstr "更新数据库"
