@@ -22,6 +22,9 @@ msgstr "IP黑名单"
 msgid "Customized"
 msgstr "自定义规则"
 
+msgid "Never Update"
+msgstr "从未更新"
+
 msgid "Enable"
 msgstr "启用"
 
