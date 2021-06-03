@@ -3,7 +3,7 @@ local SYS  = require "luci.sys"
 local HTTP = require "luci.http"
 local DISP = require "luci.dispatcher"
 
-local NR = SYS.exec("grep -v '^!' /usr/share/adbyby/data/rules.txt | wc -l")
+local NR = SYS.exec("grep -v '^!' /usr/share/adbyby/data/customized.txt | wc -l")
 local NU = SYS.exec("cat /usr/share/adbyby/data/user.txt | wc -l")
 local UD = NXFS.readfile("/tmp/adbyby.updated") or translate("Never Update")
 
