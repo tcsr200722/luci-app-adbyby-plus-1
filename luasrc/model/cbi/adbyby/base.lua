@@ -34,7 +34,7 @@ o.description = string.format("<strong>"..translate("Last Update")..":</strong> 
 o.inputstyle = "reload"
 o.write = function()
 	SYS.call("rm -rf /tmp/adbyby.updated /tmp/adbyby/admd5.json && /usr/share/adbyby/adbybyupdate.sh > /tmp/adupdate.log 2>&1 &")
-    SYS.call("sleep 5")
+    SYS.call("sleep 2")
 	HTTP.redirect(DISP.build_url("admin", "services", "adbyby"))
 end
 
@@ -45,7 +45,7 @@ t.anonymous = true
 t.addremove = true
 
 e = t:option(Value, "ipaddr", translate("IP Address"))
-e.width = "40%"
+e.width = "50%"
 e.datatype = "ip4addr"
 e.placeholder = "0.0.0.0/0"
 luci.ip.neighbors({ family = 4 }, function(entry)
@@ -55,7 +55,7 @@ luci.ip.neighbors({ family = 4 }, function(entry)
 end)
 
 e = t:option(ListValue, "filter_mode", translate("Filter Mode"))
-e.width = "40%"
+e.width = "50%"
 e.default = "disable"
 e.rmempty = false
 e:value("disable", translate("No Filter"))
