@@ -31,20 +31,17 @@ msgstr "启用"
 msgid "Running Mode"
 msgstr "运行模式"
 
-msgid "Global Mode"
+msgid "Global Filter Mode"
 msgstr "全局过滤"
 
-msgid "Filter Mode"
+msgid "Partial Filter Mode"
 msgstr "选择过滤"
+
+msgid "Manual Filter Mode"
+msgstr "手动过滤"
 
 msgid "No Filter"
 msgstr "不过滤"
-
-msgid "Global Filter"
-msgstr "全局过滤"
-
-msgid "Manual Mode"
-msgstr "手动过滤"
 
 msgid "Rule State"
 msgstr "规则状态"
@@ -63,9 +60,6 @@ msgstr "为局域网客户端设置不同的过滤模式"
 
 msgid "IP Address"
 msgstr "IP地址"
-
-msgid "Filter Mode"
-msgstr "过滤模式"
 
 msgid "Block iOS Update"
 msgstr "拦截 iOS 更新"

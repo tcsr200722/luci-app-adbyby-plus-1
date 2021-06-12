@@ -19,9 +19,9 @@ o.rmempty = false
 
 o = s:option(ListValue, "wan_mode")
 o.title = translate("Running Mode")
-o:value("0", translate("Global Mode"))
-o:value("1", translate("Filter Mode"))
-o:value("2", translate("Manual Mode"))
+o:value("0", translate("Global Filter Mode"))
+o:value("1", translate("Partial Filter Mode"))
+o:value("2", translate("Manual Filter Mode"))
 o.default = 1
 o.rmempty = false
 
@@ -52,11 +52,11 @@ luci.ip.neighbors({ family = 4 }, function(entry)
 	end
 end)
 
-e = t:option(ListValue, "filter_mode", translate("Filter Mode"))
+e = t:option(ListValue, "filter_mode", translate("Running Mode"))
 e.width = "50%"
 e.default = "disable"
 e.rmempty = false
 e:value("disable", translate("No Filter"))
-e:value("global", translate("Global Filter"))
+e:value("global", translate("Global Filter Mode"))
 
 return m
