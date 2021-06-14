@@ -17,16 +17,6 @@ m = Map("adbyby")
 s = m:section(TypedSection, "adbyby")
 s.anonymous = true
 
-o = s:option(Flag, "block_ios")
-o.title = translate("Block iOS Update")
-o.default = 0
-o.rmempty = false
-
-o = s:option(Flag, "block_cnshort")
-o.title = translate("Block CNshort Video")
-o.default = 0
-o.rmempty = false
-
 o = s:option(Flag, "cron_mode")
 o.title = translate("Update Rules")
 o.default = 0
