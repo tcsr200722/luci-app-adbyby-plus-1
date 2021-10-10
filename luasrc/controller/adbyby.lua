@@ -6,7 +6,7 @@ function index()
 		return
 	end
 	
-	entry({"admin", "services", "adbyby"}, alias("admin", "services", "adbyby", "base"), _("Adbyby"), 9).dependent = true
+	entry({"admin", "services", "adbyby"}, alias("admin", "services", "adbyby", "base"), _("Adbyby"), 20).dependent = true
 	
 	entry({"admin", "services", "adbyby", "base"}, cbi("adbyby/base"), _("Base Setting"), 10).leaf = true
 	entry({"admin", "services", "adbyby", "advanced"}, cbi("adbyby/advanced"), _("Advance Setting"), 20).leaf = true
